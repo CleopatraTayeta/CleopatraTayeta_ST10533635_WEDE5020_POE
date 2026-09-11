@@ -26,7 +26,6 @@ https://github.com/CleopatraTayeta/CleopatraTayeta_ST10533635_WEDE5020_POE
 - 2026-09-11: Added media queries for tablet (≤900px) and mobile (≤600px).
 - 2026-09-11: Used relative units (rem and %) throughout for responsiveness.
 - 2026-09-11: Fixed image paths and made images responsive.
-- (Add any specific Part 1 feedback fixes here once you have them)
 
 ### Testing
 Tested using browser developer tools on:
