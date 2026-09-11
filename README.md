@@ -29,7 +29,7 @@ https://github.com/CleopatraTayeta/CleopatraTayeta_ST10533635_WEDE5020_POE
 
 ### Testing
 Tested using browser developer tools on:
-- Desktop (>1024px)
+- Desktop\PC (>1024px)
 - Tablet (\~768–900px)
 - Mobile (\~375–600px)
 
@@ -37,6 +37,6 @@ Tested using browser developer tools on:
 Google Fonts (2026) Google Fonts. Available at: https://fonts.google.com (Accessed: 12 August 2026).
 Unsplash (2026) Unsplash: The internet's source of freely-usable images. Available at: https://unsplash.com (Accessed: 12 August 2026).
 Font Awesome (2026) Font Awesome Icons. Available at: https://fontawesome.com (Accessed: 12 August 2026).
-W3Schools (2026) CSS Reference. Available at: https://www.w3schools.com/css (Accessed: [add date]).
-MDN Web Docs (2026) CSS: Cascading Style Sheets. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS (Accessed: [add date]).
+W3Schools (2026) CSS Reference. Available at: https://www.w3schools.com/css (Accessed: [11-09-2026]).
+MDN Web Docs (2026) CSS: Cascading Style Sheets. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS (Accessed: [11-09-2026]).
 Lecture slides (Week 5 & Week 6)
