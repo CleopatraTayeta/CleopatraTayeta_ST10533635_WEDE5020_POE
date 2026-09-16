@@ -29,9 +29,11 @@ https://github.com/CleopatraTayeta/CleopatraTayeta_ST10533635_WEDE5020_POE
 
 ### Testing
 Tested using browser developer tools on:
-- Desktop\PC (>1024px)
+- Desktop\PC (>1024px) <img width="1920" height="1080" alt="Screenshot 2026-09-11 111851" src="https://github.com/user-attachments/assets/a7e90768-746e-4a12-a5d6-ba1fde5d71cc" />
+
 - Tablet (\~768–900px)
-- Mobile (\~375–600px)
+- Mobile (\~375–600px) <img width="720" height="1280" alt="WhatsApp Image 2026-09-11 at 12 52 03" src="https://github.com/user-attachments/assets/19e3cd1b-9aa7-401c-b577-817170473e80" />
+
 
 ### References
 Google Fonts (2026) Google Fonts. Available at: https://fonts.google.com (Accessed: 12 August 2026).
