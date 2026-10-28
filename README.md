@@ -44,3 +44,34 @@ Font Awesome (2026) Font Awesome Icons. Available at: https://fontawesome.com (A
 W3Schools (2026) CSS Reference. Available at: https://www.w3schools.com/css (Accessed: [11-09-2026]).
 MDN Web Docs (2026) CSS: Cascading Style Sheets. Available at: https://developer.mozilla.org/en-US/docs/Web/CSS (Accessed: [11-09-2026]).
 Lecture slides (Week 5 & Week 6)
+
+
+## Part 3 – Enhancing Functionality and SEO
+
+### Changelog (Part 3 feedback implementation)
+- 2026-10-xx: Fixed broken/duplicate `<img>` tags in `about.html`, `index.html` and `service.html` (Part 2 feedback).
+- 2026-10-xx: Added shared `js/main.js` for modal dialogs, scroll-reveal animations and tab navigation.
+- 2026-10-xx: Added accessible tab component to `about.html` (Mission / Vision / Values).
+- 2026-10-xx: Replaced static project cards with dynamic JS-rendered cards in `service.html` (`js/projects.js`).
+- 2026-10-xx: Implemented live search + category filters for projects.
+- 2026-10-xx: Added lightbox gallery to `index.html` (`js/gallery.js`).
+- 2026-10-xx: Enhanced Google Maps iframes with "Get Directions" location-based links.
+- 2026-10-xx: Added client-side validation (`js/validation.js`) for contact and enquiry forms with inline error messages.
+- 2026-10-xx: Added AJAX form submission (`js/form-handler.js`) using Formspree for contact and enquiry forms.
+- 2026-10-xx: Added radio buttons and a required terms checkbox to the volunteer enquiry form.
+- 2026-10-xx: Added SEO meta tags (keywords, Open Graph, author) to all pages.
+- 2026-10-xx: Added `robots.txt` and `sitemap.xml`.
+- 2026-10-xx: Improved accessibility with `aria-live`, `role="dialog"`, `role="tablist"` and labelled form controls.
+
+### Testing
+- Tested all forms with valid/invalid inputs on Chrome and Firefox.
+- Tested search and filters on `service.html`.
+- Tested lightbox keyboard (Esc) and click-outside behaviour.
+- Tested responsive layout at 375px, 768px and 1440px.
+
+### Part 3 References
+Formspree (2026) Formspree – Form backend for static sites. Available at: https://formspree.io (Accessed: [28\10\2026]).
+MDN Web Docs (2026) Client-side form validation. Available at: https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation (Accessed: [28\10\2026]).
+MDN Web Docs (2026) Intersection Observer API. Available at: https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API (Accessed: [28\10\2026]).
+Google Maps Platform (2026) Maps URLs. Available at: https://developers.google.com/maps/documentation/urls/get-started (Accessed: [28\10\2026]).
+W3Schools (2026) JavaScript HTML DOM. Available at: https://www.w3schools.com/js (Accessed: [28\10\2026]).

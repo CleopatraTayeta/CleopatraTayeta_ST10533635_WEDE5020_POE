@@ -4,6 +4,17 @@
     <title>Contact Us | RoboWild</title>
     <meta name="description" content="Get in touch with RoboWild. Find our office location and partner reserve locations, or send us a message.">
     <link rel="stylesheet" href="css_asset/style.css">
+    <script src="js_asset/main.js"></script>
+    <script src="js_asset/project.js"></script>
+    <script src="js_asset/gallery.js"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="keywords" content="RoboWild, wildlife conservation, robotics, IT volunteers, South Africa, anti-poaching, drones, conservation technology">
+<meta name="author" content="Cleopatra Tayeta">
+<meta property="og:title" content="RoboWild | Robotics for Wildlife">
+<meta property="og:description" content="Connecting robotics and IT volunteers with wildlife conservation projects.">
+<meta property="og:type" content="website">
+<link rel="icon" href="IMAGES/RoboWild.jpg" type="image/x-icon">
 </head>
 <body>
 
@@ -52,22 +63,31 @@
         <h2>Find Us</h2>
         <div class="map-grid">
             <div class="map-wrapper">
-                <h3>Pretoria Head Office</h3>
-                <iframe
-                    title="RoboWild Head Office location in Pretoria"
-                    src="https://maps.google.com/maps?q=PTA%20Pretoria%2C%20South%20Africa&output=embed"
-                    width="80%" height="200" style="border:0;" loading="lazy">
-                </iframe>
-            </div>
-            <div class="map-wrapper">
-                <h3>Kruger National Park Field Office</h3>
-                <iframe
-                    title="RoboWild Field Office location near Kruger National Park"
-                    src="https://maps.google.com/maps?q=Skukuza%2C%20Kruger%20National%20Park&output=embed"
-                    width="80%" height="200" style="border:0;" loading="lazy">
-                </iframe>
-            </div>
-        </div>
+  <h3>Pretoria Head Office</h3>
+  <iframe
+    title="RoboWild Head Office location in Pretoria"
+    src="https://maps.google.com/maps?q=PTA%20Pretoria%2C%20South%20Africa&output=embed"
+    width="100%" height="250" style="border:0;" loading="lazy"
+    allowfullscreen referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+  <a class="btn btn-primary btn-sm"
+     href="https://www.google.com/maps/dir/?api=1&destination=Pretoria,South+Africa"
+     target="_blank" rel="noopener">Get Directions</a>
+</div>
+       <div class="map-wrapper">
+    <h3>Kruger National Park Field Office</h3>
+    <iframe
+        title="RoboWild Field Office location near Skukuza, Kruger National Park"
+        src="https://maps.google.com/maps?q=Skukuza%2C%20Kruger%20National%20Park&output=embed"
+        width="100%"  height="250"  style="border:0;" loading="lazy" 
+        allowfullscreen referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+    <a class="btn btn-primary btn-sm map-btn"
+       href="https://www.google.com/maps/dir/?api=1&destination=Skukuza,Camp,Kruger+National+Park,South+Africa"
+       target="_blank" rel="noopener">
+       Get Directions
+    </a>
+</div>
     </section>
 
     <!-- ===== CONTACT FORM ===== -->
@@ -97,6 +117,10 @@
                 <textarea id="c-message" name="c-message" rows="5" required minlength="10" placeholder="Write your message here"></textarea>
             </div>
             <button type="submit" class="btn btn-primary">Send Message</button>
+            <small class="error-msg" id="c-name-error" aria-live="polite"> 
+            </small>
+<div id="contact-response" class="form-response" role="status" aria-live="polite">
+</div>
         </form>
     </section>
 

@@ -4,6 +4,17 @@
     <title>Our Projects | RoboWild</title>
     <meta name="description" content="Explore RoboWild's active and completed robotics and IT projects supporting wildlife conservation across Southern Africa.">
     <link rel="stylesheet" href="css_asset/style.css">
+    <script src="js_asset/main.js"></script>
+    <script src="js_asset/project.js"></script>
+    <script src="js_asset/gallery.js"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="keywords" content="RoboWild, wildlife conservation, robotics, IT volunteers, South Africa, anti-poaching, drones, conservation technology">
+<meta name="author" content="Cleopatra Tayeta">
+<meta property="og:title" content="RoboWild | Robotics for Wildlife">
+<meta property="og:description" content="Connecting robotics and IT volunteers with wildlife conservation projects.">
+<meta property="og:type" content="website">
+<link rel="icon" href="IMAGES/RoboWild.jpg" type="image/x-icon">
 </head>
 <body>
 
@@ -24,72 +35,23 @@
     </header>
 
     <!-- ===== PAGE BANNER ===== -->
+     <section class="content-block">
+  <h2>Explore Our Projects</h2>
+  <div class="search-bar">
+    <label for="projectSearch">Search projects:</label>
+    <input type="search" id="projectSearch" placeholder="e.g. drone, anti-poaching, training…" aria-label="Search projects">
+    <div class="filter-buttons">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="monitoring">Monitoring</button>
+      <button class="filter-btn" data-filter="anti-poaching">Anti-Poaching</button>
+      <button class="filter-btn" data-filter="training">Training</button>
+    </div>
+  </div>
+  <div id="projectContainer" class="project-grid" aria-live="polite"></div>
+</section>
     <section class="page-banner">
         <h1>Our Projects</h1>
         <p>Technology in service of conservation, from the field to the lab.</p>
-    </section>
-
-    <!-- ===== INTRO ===== -->
-    <section class="content-block">
-        <p>
-            RoboWild runs and supports a range of robotics and IT initiatives designed with
-            our partner reserves and conservation organisations. Each project pairs volunteer
-            technologists with the specific needs of the animals and rangers they serve.
-        </p>
-    </section>
-
-    <!-- ===== PROJECT 1 ===== -->
-    <section class="project-detail">
-        <img src="IMAGES/Conservation-Drones-Monitoring-Wildlife-from-Above-780x446.webp" alt="Drone flying over a wildlife reserve for monitoring"  width="280"  height="300%">
-        <div class="project-text">
-            <h2>Wildlife Monitoring</h2>
-            <p>
-                Drone and camera-trap networks, combined with lightweight sensor tags, allow
-                partner reserves to track herd movements and detect distressed or injured
-                animals earlier than traditional patrols alone.
-            </p>
-            <ul>
-                <li>Deployed across 6 partner reserves</li>
-                <li>Real-time alerts sent to ranger devices</li>
-                <li>Built using low-cost, solar-powered hardware</li>
-            </ul>
-        </div>
-    </section>
-
-    <!-- ===== PROJECT 2 ===== -->
-    <section class="project-detail reverse">
-        <img src="IMAGES/Anti-Poaching Tech.avif" alt="Ranger holding a handheld anti-poaching tracking device"  width="280"  height="300%">
-        <div class="project-text">
-            <h2>Anti-Poaching Technology</h2>
-            <p>
-                RoboWild volunteers build and maintain affordable tracking and perimeter-alert
-                systems, developed in direct collaboration with ranger teams to fit the
-                realities of each reserve.
-            </p>
-            <ul>
-                <li>GPS-linked alert systems for high-risk zones</li>
-                <li>Custom-built for low connectivity areas</li>
-                <li>Maintained through ongoing volunteer support</li>
-            </ul>
-        </div>
-    </section>
-
-    <!-- ===== PROJECT 3 ===== -->
-    <section class="project-detail">
-        <img src="IMAGES/volunteer-box-Featured.png","IMAGES/volunteeres.webp" alt="Volunteers training conservation staff on new equipment"  width="280"  height="300%">
-        <div class="project-text">
-            <h2>Training Workshops</h2>
-            <p>
-                Technology is only useful if teams know how to use and maintain it. RoboWild
-                runs hands-on workshops teaching rangers and animal-care staff the basics of
-                the robotics and IT tools deployed on their reserve.
-            </p>
-            <ul>
-                <li>Workshops run quarterly at each partner site</li>
-                <li>Covers equipment use, basic repairs and data reading</li>
-                <li>Delivered by volunteer robotics and IT specialists</li>
-            </ul>
-        </div>
     </section>
 
     <!-- ===== CALL TO ACTION ===== -->

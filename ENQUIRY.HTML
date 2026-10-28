@@ -4,6 +4,17 @@
     <title>Get Involved | RoboWild</title>
     <meta name="description" content="Volunteer your robotics or IT skills, or sponsor RoboWild's conservation technology projects.">
     <link rel="stylesheet" href="css_asset/style.css">
+    <script src="js_asset/main.js"></script>
+    <script src="js_asset/project.js"></script>
+    <script src="js_asset/gallery.js"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="keywords" content="RoboWild, wildlife conservation, robotics, IT volunteers, South Africa, anti-poaching, drones, conservation technology">
+<meta name="author" content="Cleopatra Tayeta">
+<meta property="og:title" content="RoboWild | Robotics for Wildlife">
+<meta property="og:description" content="Connecting robotics and IT volunteers with wildlife conservation projects.">
+<meta property="og:type" content="website">
+<link rel="icon" href="IMAGES/RoboWild.jpg" type="image/x-icon">
 </head>
 <body>
 
@@ -69,6 +80,26 @@
                 <textarea id="v-message" name="v-message" rows="4" required minlength="10" placeholder="Share your experience and why you'd like to volunteer"></textarea>
             </div>
             <button type="submit" class="btn btn-primary">Submit Volunteer Application</button>
+                  <small class="error-msg" id="c-name-error" aria-live="polite"> 
+            </small>
+<div id="contact-response" class="form-response" role="status" aria-live="polite">
+    <div class="form-response" role="status" aria-live="polite"></div>
+</div>
+<div class="form-row">
+  <fieldset>
+    <legend>Preferred Contact Method <span class="required">*</span></legend>
+    <label><input type="radio" name="contact-method" value="email" required> Email</label>
+    <label><input type="radio" name="contact-method" value="phone"> Phone</label>
+  </fieldset>
+</div>
+
+<div class="form-row checkbox-row">
+  <label>
+    <input type="checkbox" id="v-terms" name="v-terms" required>
+    I agree to RoboWild's volunteer code of conduct <span class="required">*</span>
+  </label>
+  <small class="error-msg" id="v-terms-error" aria-live="polite"></small>
+</div>
         </form>
     </section>
 
@@ -107,6 +138,9 @@
                 <textarea id="s-message" name="s-message" rows="4" required minlength="10" placeholder="Tell us more about your sponsorship interest"></textarea>
             </div>
             <button type="submit" class="btn btn-primary">Submit Sponsorship Enquiry</button>
+                  <small class="error-msg" id="c-name-error" aria-live="polite"></small>
+<div id="contact-response" class="form-response" role="status" aria-live="polite"></div>
+<div class="form-response" role="status" aria-live="polite"></div>
         </form>
     </section>
 
